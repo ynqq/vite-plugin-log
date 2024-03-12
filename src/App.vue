@@ -23,6 +23,7 @@ function getData () {
 }
 
 // 提交接口
+// #ynqq.log
 const submitAction = async (data: {id: number}[]) => {
   // await sleep(500)
   const getFun = /*#ynqq.log*/ () => {
